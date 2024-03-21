@@ -1,0 +1,22 @@
+{
+  "version": "0.2.3-alpha.1",
+  "command": {
+    "init": {
+      "exact": true
+    },
+    "publish": {
+      "allowBranch": [
+        "master",
+        "feature/*"
+      ],
+      "message": "chore(release): publish",
+      "ignoreChanges": [
+        "*.md"
+      ]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn"
+}
